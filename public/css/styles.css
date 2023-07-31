@@ -1,0 +1,104 @@
+/*
+colores
+fondo (color base) = #CE8D37
+tono claro = #FFCF8F
+tono semi claro = #E8AD5D
+tono semi oscuro = #AB6D1B
+tono oscuro = #844D03
+*/
+
+
+
+
+body{
+    background: #CE8D37;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+a.elementoLinked:visited {
+    color: #844D03;
+}
+h1 a{
+    text-decoration: none;
+    font-style: italic;
+    color: #844D03;
+    column-rule: #844D03;
+    
+}
+h1 a:visited {
+    color: #844D03; /* Mantienes el mismo color para enlaces visitados */
+}
+header img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    background-image: url(../img/natsa.png);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #844D03;
+}
+nav{
+    text-align: center;
+    
+}
+nav img{
+    width: 32px;
+    color: #844D03;
+    vertical-align: middle;
+    transition: width 0.3s ease;
+}
+nav img:hover {
+    width: 43px;
+}
+div.parrafoPresentacion{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+div p{
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+}
+.botones{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+.botones ul{
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+ul {
+    padding-inline-start: 0;
+    margin: 0;
+
+}
+.botones a{
+    text-decoration: none;
+}
+.botones li{
+    list-style: none; /*le quita los puntos*/
+    
+    
+}
+li{
+    margin: 6px;
+
+}
+.botones a:link, .botones a:visited{
+    color:black;
+    padding: 16px;
+    display: inline-block;
+    background: #E8AD5D;
+    border-radius: 8px;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, .5);
+}
+
